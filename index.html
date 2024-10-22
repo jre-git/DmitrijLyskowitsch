@@ -9,14 +9,18 @@
             width: 100%;
             height: auto;
         }
+        .button-container {
+            text-align: center; /* Zentriert den Inhalt */
+            margin-top: 20px; /* Abstand nach oben */
+        }
         .download-button {
             display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
+            padding: 15px 30px; /* Größeres Padding für mehr Fläche */
             background-color: #4CAF50; /* Grüner Hintergrund */
             color: white; /* Textfarbe */
             text-decoration: none; /* Keine Unterstreichung */
             border-radius: 5px; /* Abgerundete Ecken */
+            font-size: 18px; /* Größere Schriftgröße */
         }
         .download-button:hover {
             background-color: #45a049; /* Dunklerer Grünton beim Hover */
@@ -25,6 +29,9 @@
 </head>
 <body> 
   <img src="DmitrijLyskowitsch.jpg" alt="Bild von Dmitrij Lyskowitsch">
-     <a href="DmitrijLyskowitsch.jpg" download="DmitrijLyskowitsch.jpg" class="download-button">Bild herunterladen</a>
+  
+  <div class="button-container">
+    <a href="DmitrijLyskowitsch.jpg" download="DmitrijLyskowitsch.jpg" class="download-button">Bild herunterladen</a>
+  </div>
 </body>
 </html>
